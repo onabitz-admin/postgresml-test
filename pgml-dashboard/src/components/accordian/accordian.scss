@@ -1,0 +1,10 @@
+div[data-controller="accordian"] {
+    .accordian-header {
+        cursor: pointer;
+    }
+
+    .accordian-body {
+        overflow: hidden;
+        transition: all 0.3s ease-in-out;
+    }
+}
